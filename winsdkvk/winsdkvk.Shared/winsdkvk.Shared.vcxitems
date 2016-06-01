@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{d1d3c474-21cf-494a-9c3c-26d64fad7613}</ItemsProjectGuid>
+    <ItemsRootNamespace>winsdkvk</ItemsRootNamespace>
+    <ItemsProjectName>winsdkvk.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\DefaultLogger.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\ISerializable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\IVKLogger.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Media\VKUploadRequestBase.h">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKAlbum.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKApiModelBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKAttachment.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKAudio.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKChat.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKCity.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKComment.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKCountry.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKDocument.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKGeo.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKGroup.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKLink.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKList.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKMessage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKNote.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKPage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKPhoto.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKPlace.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKPoll.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKPrivacy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKUser.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKVideo.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKWallPost.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Networking\GZipExtensions.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKBackendResult.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKCaptchaUserRequest.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKError.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKRequest.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKRequestParameters.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKResultCode.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKUploadRequest.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKValidationRequest.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)LoginType.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Pages\VKCaptchaRequestUserControl.xaml.h">
+      <DependentUpon>$(MSBuildThisFileDirectory)Pages\VKCaptchaRequestUserControl.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Pages\VKLoginUserControl.xaml.h">
+      <DependentUpon>$(MSBuildThisFileDirectory)Pages\VKLoginUserControl.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Pages\VKPopupControlBase.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Strings\Resources.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Strings\VKLocalizedStrings.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\StreamUtils.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\StringUtil.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\VKExecute.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\VKHttpRequestHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\VKJTokenExtensions.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\VKMD5.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\VKParametersRepository.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\VKUtil.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKAccessToken.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKAppLaunchAuthorizationHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKAppPlatform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKEventArgs.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKScope.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKSDK.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKUriMapperHandler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\DefaultLogger.cpp">
+      <ExcludedFromBuild>
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\ISerializable.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\IVKLogger.cpp">
+      <ExcludedFromBuild>
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Media\VKUploadRequestBase.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKAlbum.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKApiModelBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKAttachment.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKAudio.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKChat.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKCity.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKComment.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKCountry.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKDocument.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKGeo.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKGroup.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKLink.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKList.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKMessage.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKNote.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKPage.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKPhoto.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKPlace.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKPoll.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKPrivacy.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKUser.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKVideo.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKWallPost.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Networking\GZipExtensions.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKBackendResult.cpp">
+      <ExcludedFromBuild>
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKCaptchaUserRequest.cpp">
+      <ExcludedFromBuild>
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKError.cpp">
+      <ExcludedFromBuild>
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKRequest.cpp">
+      <ExcludedFromBuild>
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKRequestParameters.cpp">
+      <ExcludedFromBuild>
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKResultCode.cpp">
+      <ExcludedFromBuild>
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKUploadRequest.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKValidationRequest.cpp">
+      <ExcludedFromBuild>
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)LoginType.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Pages\VKCaptchaRequestUserControl.xaml.cpp">
+      <DependentUpon>$(MSBuildThisFileDirectory)Pages\VKCaptchaRequestUserControl.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Pages\VKLoginUserControl.xaml.cpp">
+      <DependentUpon>$(MSBuildThisFileDirectory)Pages\VKLoginUserControl.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Pages\VKPopupControlBase.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Strings\Resources.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Strings\VKLocalizedStrings.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\StreamUtils.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\StringUtil.cpp">
+      <ExcludedFromBuild>
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\VKExecute.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\VKHttpRequestHelper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\VKJTokenExtensions.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\VKMD5.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\VKParametersRepository.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\VKUtil.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKAccessToken.cpp">
+      <ExcludedFromBuild>
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKAppLaunchAuthorizationHelper.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKAppPlatform.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKEventArgs.cpp">
+      <ExcludedFromBuild>
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKObject.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKScope.cpp">
+      <ExcludedFromBuild>
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKSDK.cpp">
+      <ExcludedFromBuild>
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKUriMapperHandler.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\VKCaptchaRequestUserControl.xaml" />
+    <Page Include="$(MSBuildThisFileDirectory)Pages\VKLoginUserControl.xaml" />
+  </ItemGroup>
+</Project>

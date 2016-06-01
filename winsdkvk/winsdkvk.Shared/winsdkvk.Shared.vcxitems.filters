@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKAlbum.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKApiModelBase.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKAttachment.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKAudio.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKChat.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKCity.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKComment.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKCountry.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKDocument.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKGeo.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKGroup.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKLink.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKList.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKMessage.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKNote.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKPage.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKPhoto.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKPlace.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKPoll.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKPrivacy.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKUser.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKVideo.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Model\VKWallPost.h">
+      <Filter>API\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Media\VKUploadRequestBase.h">
+      <Filter>API\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\Networking\GZipExtensions.h">
+      <Filter>API\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\DefaultLogger.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\IVKLogger.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKBackendResult.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKCaptchaUserRequest.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKError.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKRequest.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKRequestParameters.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKResultCode.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKUploadRequest.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\VKValidationRequest.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)LoginType.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKAccessToken.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKAppLaunchAuthorizationHelper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKAppPlatform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKEventArgs.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKScope.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKSDK.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VKUriMapperHandler.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Pages\VKPopupControlBase.h">
+      <Filter>Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Strings\Resources.h">
+      <Filter>Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Strings\VKLocalizedStrings.h">
+      <Filter>Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\StreamUtils.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\StringUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\VKExecute.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\VKHttpRequestHelper.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\VKJTokenExtensions.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\VKMD5.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\VKParametersRepository.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Util\VKUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Pages\VKCaptchaRequestUserControl.xaml.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Pages\VKLoginUserControl.xaml.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API\ISerializable.h">
+      <Filter>API</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKAlbum.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKApiModelBase.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKAttachment.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKAudio.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKChat.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKCity.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKComment.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKCountry.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKDocument.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKGeo.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKGroup.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKLink.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKList.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKMessage.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKNote.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKPage.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKPhoto.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKPlace.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKPoll.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKPrivacy.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKUser.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKVideo.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Model\VKWallPost.cpp">
+      <Filter>API\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Media\VKUploadRequestBase.cpp">
+      <Filter>API\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\Networking\GZipExtensions.cpp">
+      <Filter>API\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\DefaultLogger.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\IVKLogger.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKBackendResult.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKCaptchaUserRequest.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKError.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKRequest.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKRequestParameters.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKResultCode.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKUploadRequest.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\VKValidationRequest.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)LoginType.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKAccessToken.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKAppLaunchAuthorizationHelper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKAppPlatform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKEventArgs.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKScope.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKSDK.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VKUriMapperHandler.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Pages\VKPopupControlBase.cpp">
+      <Filter>Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Strings\Resources.cpp">
+      <Filter>Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Strings\VKLocalizedStrings.cpp">
+      <Filter>Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\StreamUtils.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\StringUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\VKExecute.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\VKHttpRequestHelper.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\VKJTokenExtensions.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\VKMD5.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\VKParametersRepository.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Util\VKUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Pages\VKCaptchaRequestUserControl.xaml.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Pages\VKLoginUserControl.xaml.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API\ISerializable.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{8ae3c42d-f82d-4d1a-bc0e-c7c83ab2eddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Model">
+      <UniqueIdentifier>{83d29b72-4987-4785-84b4-68d97914cba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Media">
+      <UniqueIdentifier>{6bf87f04-2230-40f5-8720-a3f17f1af8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Networking">
+      <UniqueIdentifier>{289b7a97-deba-41bd-a84d-af60700ef748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{fd507cf7-406c-4fc6-b178-f5bce7c4ab34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pages">
+      <UniqueIdentifier>{5b485fa3-d5c4-4cd8-8327-fe3cafb91499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings">
+      <UniqueIdentifier>{000ad542-2483-4a91-879c-55daee2452a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\VKLoginUserControl.xaml">
+      <Filter>Pages</Filter>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Pages\VKCaptchaRequestUserControl.xaml">
+      <Filter>Pages</Filter>
+    </Page>
+  </ItemGroup>
+</Project>

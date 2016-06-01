@@ -1,0 +1,19 @@
+.nuget
+*.csproj.user
+*.vcxproj.user
+*.opendb
+*.opensdf
+*.sdf
+*.suo
+AppPackages
+bin
+Debug
+Doxygen
+Generated
+Generated Files
+ipch
+packages
+Packages.dgml
+Release
+sdk-build.log
+
